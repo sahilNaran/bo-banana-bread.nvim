@@ -12,7 +12,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
   "sahilNaran/bo-banana-bread.nvim",
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("bo-banana-bread")
+    require("bo-banana-bread").setup()
   end,
 }
 ```
@@ -22,7 +22,7 @@ Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 use({
   "sahilNaran/bo-banana-bread.nvim",
   config = function()
-    vim.cmd.colorscheme("bo-banana-bread")
+    require("bo-banana-bread").setup()
   end
 })
 ```
