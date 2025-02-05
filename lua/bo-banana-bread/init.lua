@@ -64,6 +64,7 @@ function M.setup()
   vim.cmd("autocmd ColorScheme * highlight Normal guibg="..colors.global_bg)
   vim.cmd("autocmd ColorScheme * highlight NormalFloat guibg="..colors.global_bg)
 
+  vim.api.nvim_command('colorscheme bo-banana-bread')
 end
 
 return M
