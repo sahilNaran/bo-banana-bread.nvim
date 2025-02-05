@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-A Spotify-inspired dark theme for Neovim
+bo bo banana bread 🍌🍞 colour be like banana. bread be like bread. 🍞🍌
 
 ## Installation
 
